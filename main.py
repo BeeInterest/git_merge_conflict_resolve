@@ -1,4 +1,4 @@
-class AbstractPizza:
+eclass AbstractPizza:
     def description(self) ->str:
         pass
     def cost(self) ->float:
@@ -58,16 +58,8 @@ def print_pizza_to_ui(pizza: AbstractPizza) ->None:
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    pizza = MiddlePizza()
-    pizza = Chicken(pizza)
-    pizza = Chicken(pizza)
-    pizza = Chicken(pizza)
-    pizza = Chicken(pizza)
-=======
     pizza = MiddlePizza()
     pizza = Chicken(pizza)
     pizza = Cheese(pizza)
     pizza = Chicken(pizza)
->>>>>>> origin/small-cheese
     print_pizza_to_ui(pizza)
