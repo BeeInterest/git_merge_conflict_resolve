@@ -1,4 +1,4 @@
-eclass AbstractPizza:
+class AbstractPizza:
     def description(self) ->str:
         pass
     def cost(self) ->float:
